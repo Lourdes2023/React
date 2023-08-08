@@ -8,7 +8,7 @@ export const ContactContainer = styled.section`
   width: 80%;
   border-radius: 12px;
   padding: 40px 0;
-  background: linear-gradient(to bottom, #e0e0e0, #b0b0b0);
+  background: var(--color-back-seccion);
 `;
 export const InfoContainer = styled.div`
   display: flex;
@@ -19,7 +19,7 @@ export const InfoContainer = styled.div`
   text-align: center;
   h2 {
     font-size: 24px;
-    color: #4e6e7e;
+    color: #5c413f;
     margin-bottom: 20px;
     @media (max-width: 780px) {
       width: 80%;
@@ -28,7 +28,7 @@ export const InfoContainer = styled.div`
   }
   p {
     font-size: 18px;
-    color: #7f8a9e;
+    color: var(--color-text-light);
     margin-bottom: 10px;
   }
 `;

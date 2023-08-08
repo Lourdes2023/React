@@ -6,7 +6,11 @@ export const NavbarContainerStyled = styled.header`
   height: 150px;
   width: 100%;
   box-shadow: var(--color-shadow);
-  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
 `;
 export const Wrapper = styled.div`
   display: flex;

@@ -8,6 +8,7 @@ export const ButtonStyle = styled(motion.button)`
   color: var(--color-button-text);
   text-decoration: none;
   border-radius: 5px;
+  font-size: 18px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;

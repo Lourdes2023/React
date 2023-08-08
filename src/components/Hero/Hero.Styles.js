@@ -6,6 +6,7 @@ export const HeroContainer = styled.section`
   justify-content: center;
   align-items: center;
   width: 80%;
+  margin-top: 18vh;
   h1 {
     width: 80%;
     color: var(--color-secondary);

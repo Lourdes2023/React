@@ -6,11 +6,13 @@ export const ServicesContainer = styled.section`
   align-items: center;
   padding: 60px 0;
   background-color: #f9f9f9;
-  width: 90%;
+  width: 80%;
 `;
 
 export const ServicesWrapper = styled.div`
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 40px;
   width: 80%;
