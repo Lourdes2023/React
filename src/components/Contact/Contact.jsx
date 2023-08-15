@@ -15,7 +15,7 @@ const Contact = () => {
           </p>
           <a
             class="whatsapp-btn"
-            href="https://api.whatsapp.com/send?text=Buen%20día%20quisiera%20consultar%20sobre%20&amp;phone=5491150164945
+            href="https://api.whatsapp.com/send?text=Buen%20día%20quisiera%20consultar%20sobre%20&amp;phone=5491140254010
 "
             target="_blank"
             title="Chatea con Nosotros"

@@ -14,18 +14,17 @@ const Navbar = () => {
   return (
     <NavbarContainerStyled>
       <Wrapper>
-        <div>
+        <div className="logoContainer">
           <a href="/#">
             <img
               src={Logo}
               alt=""
               style={{
-                width: "198px",
-                height: "100%",
-                display: "flex",
+                width: "50px",
               }}
             />
           </a>
+          <h1>Cocheria Ratti</h1>
         </div>
         <MobileIcont>
           <LuMenu />

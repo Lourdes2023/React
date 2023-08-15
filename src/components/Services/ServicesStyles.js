@@ -4,9 +4,15 @@ export const ServicesContainer = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 60px 0;
-  background-color: #f9f9f9;
   width: 80%;
+  h1 {
+    padding: 1rem;
+    margin-bottom: 10vh;
+    font-size: 2rem;
+    color: var(--color-secondary);
+  }
 `;
 
 export const ServicesWrapper = styled.div`
@@ -43,11 +49,11 @@ export const ServiceImage = styled.img`
 
 export const ServiceTitle = styled.h3`
   font-size: 18px;
-  color: #333;
+  color: var(--color-secondary);
   margin-bottom: 10px;
 `;
 
 export const ServiceDescription = styled.p`
   font-size: 14px;
-  color: #555;
+  color: var(--color-text-dark);
 `;

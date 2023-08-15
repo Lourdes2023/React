@@ -4,8 +4,8 @@ import {
   AboutSectionConten,
   AboutStylesContainer,
 } from "./AboutStyle";
-import Imagen4 from "../../assets/9.png";
-import Imagen5 from "../../assets/7.png";
+import Imagen4 from "../../assets/9.svg";
+import Imagen5 from "../../assets/2.svg";
 const About = () => {
   return (
     <AboutStylesContainer>
@@ -24,13 +24,13 @@ const About = () => {
             </p>
           </div>
           <div className="AboutImage">
-            <img src={Imagen4} alt="imagen4" />
+            <img src={Imagen4} alt="imagen4" style={{ borderRadius: "12px" }} />
           </div>
         </AboutSectionConten>
 
         <AboutSectionConten>
           <div className="AboutImage">
-            <img src={Imagen5} alt="imagen4" />
+            <img src={Imagen5} alt="imagen4" style={{ borderRadius: "12px" }} />
           </div>
           <div className="AboutText">
             <h2>Misión</h2>

@@ -3,12 +3,11 @@ import styled from "styled-components";
 export const ContactContainer = styled.section`
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 100%;
   border-radius: 12px;
   padding: 40px 0;
-  background: var(--color-back-seccion);
+  background-color: var(--color-back-seccionlight);
 `;
 export const InfoContainer = styled.div`
   display: flex;
@@ -19,8 +18,9 @@ export const InfoContainer = styled.div`
   text-align: center;
   h2 {
     font-size: 24px;
-    color: #5c413f;
+    color: var(--color-secondary);
     margin-bottom: 20px;
+
     @media (max-width: 780px) {
       width: 80%;
       font-size: 20px;
@@ -28,7 +28,7 @@ export const InfoContainer = styled.div`
   }
   p {
     font-size: 18px;
-    color: var(--color-text-light);
+    color: var(--color-muted-text);
     margin-bottom: 10px;
   }
 `;
@@ -43,8 +43,7 @@ export const WhatsAppLink = styled.div`
   margin-top: 10px;
   padding: 0 20px;
   padding: 0 20px;
-  background: #f4f4f4;
-  box-shadow: var(--color-shadow);
+  border: 5px solid white;
   padding: 20px;
   @media (max-width: 780px) {
     width: 70%;

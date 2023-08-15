@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const NavbarContainerStyled = styled.header`
   display: flex;
+  align-items: center;
   justify-content: center;
-  height: 150px;
+  height: 4.5rem;
   width: 100%;
   box-shadow: var(--color-shadow);
   position: fixed;
@@ -14,15 +15,29 @@ export const NavbarContainerStyled = styled.header`
 `;
 export const Wrapper = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
+  width: 90%;
+  .logoContainer {
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #632526;
+    gap: 10px;
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
 `;
 export const Menu = styled.ul`
   display: flex;
   justify-content: center;
-  height: 50px;
-  @media (max-width: 986px) {
+  align-items: center;
+  height: 100%;
+  @media (max-width: 980px) {
     display: none;
     position: absolute;
     top: 87px;
@@ -39,7 +54,7 @@ export const Menu = styled.ul`
 `;
 
 export const MenuItem = styled.li`
-  height: 34px;
+  height: 28px;
 `;
 
 export const MenuItemLink = styled.a`
@@ -64,10 +79,10 @@ export const MenuItemLink = styled.a`
 
 export const MobileIcont = styled.div`
   display: none;
-  font-size: 2em;
-  margin: 10px;
 
-  @media (max-width: 986px) {
+  @media (max-width: 980px) {
     display: block;
+    font-size: 2em;
+    margin: 10px 0px 0px 50px;
   }
 `;

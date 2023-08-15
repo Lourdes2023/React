@@ -1,59 +1,43 @@
 import React from "react";
-import { HeroContainer, HeroFlex, Herotext } from "./Hero.Styles";
-import image2 from "../../assets/1.png";
-import image1 from "../../assets/3.png";
-import image3 from "../../assets/2.png";
+import { HeroContainer, HeroImg, Herotext } from "./Hero.Styles";
+import image2 from "../../assets/heroImg.svg";
 import Button from "../Button/Button";
 const Hero = () => {
   return (
     <HeroContainer>
       <Herotext>
-        <HeroFlex>
-          {" "}
-          <div>
-            <img
-              src={image1}
-              alt="imagen1"
-              style={{
-                borderRadius: "5px",
-              }}
-            />
-          </div>
-          <p>
-            Estamos a tu lado, brindándote apoyo junto a tu familia en este
-            camino de despedida.
-          </p>
-          <div>
-            <img
-              src={image3}
-              alt="imagen3"
-              style={{
-                borderRadius: "5px",
-              }}
-            />
-          </div>
-        </HeroFlex>
-        <HeroFlex>
-          <h1>Contáctanos y nos ocupamos de todo</h1>
-          <span>
-            Desde el primer momento en que nos llamas, nos encargamos de los
-            trámites esenciales para dar inicio al servicio funerario.
-          </span>
-          <div>
-            <Button>Urgencia 24hs</Button>
-          </div>
-        </HeroFlex>
-        <HeroFlex>
-          {" "}
-          <img src={image2} alt="imagen2" />
-          <p>
+        {" "}
+        <h1>
+          DEJANOS CUIDARLO TODO
+          <br />
+          <span className="gradient-text">
             {" "}
+            <i>CONTÁCTANOS</i>
+          </span>
+        </h1>
+        <span>
+          Desde el primer momento en que nos llamas, nos encargamos de los
+          trámites esenciales para dar inicio al servicio que corresponde.
+        </span>
+        <div style={{ padding: "14px" }}>
+          {" "}
+          <Button>Urgencias 24hs</Button>
+        </div>
+      </Herotext>{" "}
+      <HeroImg>
+        <img
+          src={image2}
+          alt="imagen2"
+          style={{ width: "100%", borderRadius: "12px" }}
+        />
+        <p>
+          <i>
             Las palabras pueden no ser suficientes, por eso estamos aquí para
             brindarte nuestros servicios y productos que estan cuidadosamente
             diseñada para honrar la memoria de tus seres queridos
-          </p>
-        </HeroFlex>
-      </Herotext>
+          </i>
+        </p>
+      </HeroImg>
     </HeroContainer>
   );
 };
